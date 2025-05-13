@@ -15,7 +15,7 @@
         <link rel="next" href="blog/">
       
       
-      <link rel="icon" href="assets/logo/favicon.ico">
+      <link rel="icon" href="assets/logo/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.13">
     
     
@@ -328,6 +328,19 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="." class="md-nav__link md-nav__link--active">
         
   
@@ -339,6 +352,67 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#mkdocs-install-as-app-issue" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mkdocs Install as App Issue
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Mkdocs Install as App Issue">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#why-install-app-disappeared-after-uninstalling" class="md-nav__link">
+    <span class="md-ellipsis">
+      🔁 Why "Install App" disappeared after uninstalling
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-to-solve-it" class="md-nav__link">
+    <span class="md-ellipsis">
+      ✅ How to solve it
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#reference" class="md-nav__link">
+    <span class="md-ellipsis">
+      Reference
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -531,6 +605,56 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#mkdocs-install-as-app-issue" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mkdocs Install as App Issue
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Mkdocs Install as App Issue">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#why-install-app-disappeared-after-uninstalling" class="md-nav__link">
+    <span class="md-ellipsis">
+      🔁 Why "Install App" disappeared after uninstalling
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-to-solve-it" class="md-nav__link">
+    <span class="md-ellipsis">
+      ✅ How to solve it
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#reference" class="md-nav__link">
+    <span class="md-ellipsis">
+      Reference
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -545,7 +669,184 @@
 
 
 
-<h1 id="home">Home</h1>
+<div><h1 id="home">Home</h1>
+<p><a class="glightbox" href="assets/cicd.webp" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="CI/CD" src="assets/cicd.webp"></a></p>
+<pre class="mermaid"><code>mindmap
+    root((gmail))
+        itsmebishowthapa@
+
+
+            id)itsmebishow(
+
+                (bts-network)
+                (bts-linux)
+                (bts-mobile)
+                (bts-cicd)
+
+        bishowthapa33@
+
+            id)bishow-thapa(
+
+                (bt-frontend)
+                (bt-backend)
+                (bt-projects)
+
+        thedatabaseguide@
+
+            id)thedatabaseguide(
+
+                (db-sql)
+                (db-nosql)
+                (db-baas)
+
+        bishowlovesml@
+
+            id)bishowlovesml(
+
+                (ml-supervised)
+                (ml-unsupervised)
+                (ml-reinenforcement)
+
+        thejsexpert@
+
+            id)thejsexpert(
+
+                (js-reacts)
+                (js-nextjs)
+                (js-typescript)
+                (js-nodejs)
+                (js-testing)
+                (js-js-interviews)</code></pre>
+<hr>
+<h2 id="mkdocs-install-as-app-issue">Mkdocs <code>Install as App</code> Issue</h2>
+<div class="admonition question">
+<p class="admonition-title">Previous it shows Install App but after i uninstall and now trying to Install as App but it doesn't show me the Install as App option it only show Create shortcut</p>
+</div>
+<p>Thanks for the clarification — this is a common situation with Progressive Web Apps (PWAs) after uninstalling them. Here's why you're seeing only "Create shortcut" instead of "Install app" now:</p>
+<hr>
+<h3 id="why-install-app-disappeared-after-uninstalling">🔁 Why "Install App" disappeared after uninstalling</h3>
+<p>When you uninstall a PWA (by removing it from the home screen or app drawer), modern browsers — especially Chrome on Android — apply a cool-down period. This is meant to prevent users from being annoyed by frequent install prompts.</p>
+<details class="question" open="open">
+<summary>⚠️ What happens:</summary>
+<ul>
+<li>The browser <mark>remembers that you recently uninstalled the app</mark>.</li>
+<li>It suppresses the <strong>"Install App"</strong> option for a period (usually a <mark>few days</mark>).</li>
+<li>During this time, <strong>only "Add to home screen"</strong> or <strong>"Create shortcut"</strong> will appear.</li>
+</ul>
+</details>
+<h3 id="how-to-solve-it">✅ How to solve it</h3>
+<p>Here are ways to trigger "Install app" again:</p>
+<details class="tip" open="open">
+<summary>Option 1: Wait</summary>
+<ul>
+<li>Wait a few days (usually 3–7) for the browser to reset its internal state.</li>
+<li>Visit the site regularly during this time — this can help Chrome consider it “engaged.”</li>
+</ul>
+</details>
+<details class="tip" open="open">
+<summary>Option 2: Manually trigger install prompt (developer method)</summary>
+<p>If you're the developer or have access to the site code:</p>
+<ol>
+<li>
+<p>Ensure your site has:</p>
+<ul>
+<li>
+<p>A proper <code>manifest.json</code></p>
+</li>
+<li>
+<p>A <mark>service worker</mark> registered</p>
+</li>
+</ul>
+</li>
+<li>
+<p>Add a custom <mark>install button</mark> using the <code>beforeinstallprompt</code> event.</p>
+<div class="language-js highlight"><span class="filename">Example JavaScript:</span><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="kd">let</span><span class="w"> </span><span class="nx">deferredPrompt</span><span class="p">;</span>
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="nb">window</span><span class="p">.</span><span class="nx">addEventListener</span><span class="p">(</span><span class="s2">"beforeinstallprompt"</span><span class="p">,</span><span class="w"> </span><span class="p">(</span><span class="nx">e</span><span class="p">)</span><span class="w"> </span><span class="p">=&gt;</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="w">    </span><span class="nx">e</span><span class="p">.</span><span class="nx">preventDefault</span><span class="p">();</span>
+</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a><span class="w">    </span><span class="nx">deferredPrompt</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">e</span><span class="p">;</span>
+</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a><span class="w">    </span><span class="c1">// Show your custom install button</span>
+</span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a><span class="w">    </span><span class="nb">document</span><span class="p">.</span><span class="nx">getElementById</span><span class="p">(</span><span class="s2">"installBtn"</span><span class="p">).</span><span class="nx">style</span><span class="p">.</span><span class="nx">display</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"block"</span><span class="p">;</span>
+</span><span id="__span-0-7"><a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a>
+</span><span id="__span-0-8"><a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a><span class="w">    </span><span class="nb">document</span><span class="p">.</span><span class="nx">getElementById</span><span class="p">(</span><span class="s2">"installBtn"</span><span class="p">).</span><span class="nx">addEventListener</span><span class="p">(</span><span class="s2">"click"</span><span class="p">,</span><span class="w"> </span><span class="p">()</span><span class="w"> </span><span class="p">=&gt;</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-0-9"><a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a><span class="w">        </span><span class="nx">deferredPrompt</span><span class="p">.</span><span class="nx">prompt</span><span class="p">();</span>
+</span><span id="__span-0-10"><a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a>
+</span><span id="__span-0-11"><a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a><span class="w">        </span><span class="nx">deferredPrompt</span><span class="p">.</span><span class="nx">userChoice</span><span class="p">.</span><span class="nx">then</span><span class="p">((</span><span class="nx">choiceResult</span><span class="p">)</span><span class="w"> </span><span class="p">=&gt;</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-0-12"><a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a><span class="w">            </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="nx">choiceResult</span><span class="p">.</span><span class="nx">outcome</span><span class="w"> </span><span class="o">===</span><span class="w"> </span><span class="s2">"accepted"</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-0-13"><a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a><span class="w">                </span><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">"App installed"</span><span class="p">);</span>
+</span><span id="__span-0-14"><a id="__codelineno-0-14" name="__codelineno-0-14" href="#__codelineno-0-14"></a><span class="w">            </span><span class="p">}</span><span class="w"> </span><span class="k">else</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-0-15"><a id="__codelineno-0-15" name="__codelineno-0-15" href="#__codelineno-0-15"></a><span class="w">                </span><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">"User dismissed"</span><span class="p">);</span>
+</span><span id="__span-0-16"><a id="__codelineno-0-16" name="__codelineno-0-16" href="#__codelineno-0-16"></a><span class="w">            </span><span class="p">}</span>
+</span><span id="__span-0-17"><a id="__codelineno-0-17" name="__codelineno-0-17" href="#__codelineno-0-17"></a><span class="w">            </span><span class="nx">deferredPrompt</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="kc">null</span><span class="p">;</span>
+</span><span id="__span-0-18"><a id="__codelineno-0-18" name="__codelineno-0-18" href="#__codelineno-0-18"></a><span class="w">        </span><span class="p">});</span>
+</span><span id="__span-0-19"><a id="__codelineno-0-19" name="__codelineno-0-19" href="#__codelineno-0-19"></a><span class="w">    </span><span class="p">});</span>
+</span><span id="__span-0-20"><a id="__codelineno-0-20" name="__codelineno-0-20" href="#__codelineno-0-20"></a><span class="p">});</span>
+</span></code></pre></div>
+</li>
+</ol>
+</details>
+<details class="tip" open="open">
+<summary>Option 3: Clear browser data (if acceptable)</summary>
+<p>⚠️ This will reset other sites too:</p>
+<ul>
+<li>Go to your mobile browser → Settings → Site Settings → Storage or Cached Data</li>
+<li>Find your site and <mark>clear its data and cache</mark></li>
+<li>Restart the browser and visit the site again</li>
+</ul>
+<p>✅ Also check:</p>
+<ul>
+<li>Is your site still served over HTTPS?</li>
+<li>Do you still have a valid <code>manifest.webmanifest</code> and <code>service-worker.js</code>?</li>
+<li>Test with Chrome <code>DevTools</code> → <code>Application tab</code> → See if your PWA is detected</li>
+</ul>
+</details>
+<hr>
+<pre class="mermaid"><code>graph LR
+  A[Start] --&gt; B{Error?};
+  B --&gt;|Yes| C[Hmm...];
+  C --&gt; D[Debug];
+  D --&gt; B;
+  B ----&gt;|No| E[Yay!];</code></pre>
+<pre class="mermaid"><code>gitGraph
+   commit
+   commit
+   branch develop
+   checkout develop
+   commit
+   commit
+   checkout main
+   merge develop
+   commit
+   commit</code></pre>
+<pre class="mermaid"><code>mindmap
+  root((mindmap))
+    Origins
+      Long history
+      ::icon(fa fa-book)
+      Popularisation
+        British popular psychology author Tony Buzan
+    Research
+      On effectiveness&lt;br/&gt;and features
+      On Automatic creation
+        Uses
+            Creative techniques
+            Strategic planning
+            Argument mapping
+    Tools
+      Pen and paper
+      Mermaid</code></pre>
+<pre class="mermaid"><code>timeline
+    title History of Social Media Platform
+    2002 : LinkedIn
+    2004 : Facebook
+         : Google
+    2005 : YouTube
+    2006 : Twitter</code></pre>
+<hr>
+<h2 id="reference">Reference</h2>
+<ul>
+<li><a href="https://techicons.dev/">techicons.dev</a></li>
+<li><a href="https://blog.bytebytego.com/p/a-crash-course-in-cicd">A Crash Course in CI/CD</a></li>
+</ul></div>
 
 
 
@@ -628,6 +929,8 @@
     
     
       <script src="assets/javascripts/bundle.13a4f30d.min.js"></script>
+      
+        <script src="https://unpkg.com/mermaid@10/dist/mermaid.min.js"></script>
       
     
   <script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
